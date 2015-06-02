@@ -13,6 +13,7 @@
 
 Route::get('/', 'PagesController@home');
 Route::get('/profile', 'PagesController@profile');
+Route::get('/calendar', 'PagesController@calendar');
 
 Route::controllers([
     'auth' => 'Auth\AuthController',
