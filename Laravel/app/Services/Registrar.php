@@ -36,6 +36,12 @@ class Registrar implements RegistrarContract {
 			'email' => $data['email'],
 			'password' => bcrypt($data['password'])		
 		]);
+
+		return Profile::create([
+			'city' => $data['city'],
+			'country' => $data['country'],
+			'telephone' => $data['telephone'],
+		]);
 	}
 
 }

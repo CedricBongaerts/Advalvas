@@ -17,6 +17,11 @@ class PagesController extends Controller {
         return view('pages.profile');
     }
 
+    public function editProfile()
+    {
+        return view('pages.editprofile');
+    }
+
     public function calendar()
     {
         return view('pages.calendar');
