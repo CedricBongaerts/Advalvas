@@ -1,2 +1,7 @@
 /vendor
+<<<<<<< HEAD
 /.vagrant
+=======
+/node_modules
+.env
+>>>>>>> 32d74d7484a6fd163f8ca73360fc8cdab2dc0fbe
