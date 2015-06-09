@@ -1,0 +1,9 @@
+{
+  "name": "EasyLivin",
+
+  "dependencies": 
+  {
+    "angular": "~1.4.0",
+    "fullcalendar": "~2.3.1"
+  }
+}

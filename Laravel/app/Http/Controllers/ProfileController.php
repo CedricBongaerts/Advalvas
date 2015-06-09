@@ -1,15 +1,18 @@
 <?php namespace App\Http\Controllers;
 
+use Auth; 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use Illuminate\Http\Request;
+use Illuminate\Html\FormFacade;
+use Illuminate\Html\HtmlFacade;
 
 class ProfileController extends Controller {
 
-	public function index()
-	{
-		return view('profile.view')
-	}
+	public function show() {
+		$user = Auth::user();
+
+        return view('pages.editprofile')->withUser($user);
+    }
 
 }
