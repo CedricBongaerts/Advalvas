@@ -150,6 +150,7 @@ return [
 		 * External Framework Service Providers...
 		 */
 		'MaddHatter\LaravelFullcalendar\ServiceProvider',
+		'Laracasts\Utilities\JavaScript\JavascriptServiceProvider'
 	],
 
 	/*
